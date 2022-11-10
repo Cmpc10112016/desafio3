@@ -1,0 +1,20 @@
+[
+    {
+       "title": "Beal Karma 9.8MM",
+        "price": 180,
+        "thumbnail": "https://www.beal-planet.com/26346-large_default/karma-98mm.jpg",
+        "id": 1
+    },
+    {
+        "title": "Petzl Contact 9.8MM",
+        "price": 160,
+        "thumbnail": "https://www.petzl.com/sfc/servlet.shepherd/version/download/0685I000000hubAQAQ",
+        "id": 2
+    },
+    {   
+        "title": "Black Diamond 9.9 Dry",
+        "price": 155,
+        "thumbnail": "https://m.media-amazon.com/images/G/30/apparel/rcxgs/tile._CB483369954_.gif",
+        "id": 3
+    } 
+]
