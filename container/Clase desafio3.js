@@ -42,8 +42,8 @@ class Contenedor {
         try {
             const leer = await fs.readFile(this.path, "utf-8");
             const data = JSON.parse(leer);
-            const obj = data.filter(obj => obj.id === id);
-            const borrar = await fs.writeFile(this.path, JSON.stringify([], null, 2), 'utf-8')
+            const filteredData = data.filter((producto)=> producto.id !==id);
+            await fs.writeFile(this.path, JSON.stringify(filteredData, null, 2), 'utf-8')
         } catch (error) {
             console.log(error)
         }

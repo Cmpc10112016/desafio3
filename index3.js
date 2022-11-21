@@ -4,7 +4,7 @@ const classContainer = require ('./container/Clase desafio3')
 
 const app = express();
 const PORT = 8080
-const archivo = new classContainer('productos.json')
+const archivo = new classContainer('productos3.json')
 
 
 
@@ -14,7 +14,7 @@ const server= app.listen(PORT, ()=>{
 
 app.get('/products', async(req, res)=>{
     const prods = await archivo.leer()
-    res.send(Productos= 'prods')
+    res.send(Productos= './productos3.json')
 })
 
 app.get('/random', async(req,res)=>{
